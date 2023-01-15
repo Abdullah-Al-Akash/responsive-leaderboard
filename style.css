@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@500&display=swap');
+
+/* Common Style */
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+        font-family: 'Noto Serif', serif;
+        font-family: 'Roboto', sans-serif;
+        background-color: #F3F1FF;
+}
+main{
+        display: flex;
+        justify-content: center;
+}
+
+.section-title{
+        color: #562EFF;
+        font-size: 24px;
+}
+.container{
+        background-color: #ffff;
+        padding: 35px;
+}
+
+/* Top Player Section CSS */
+.top-players{
+        width: 870px;
+}
+.players{
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 30px;
+}
+
+.player{
+        display: flex;
+        align-items: center;
+}
+
+.player img{
+        height: 56px;
+        width: 56px;
+}
+
+.player-name{
+        margin-left: 16px;
+}
+
